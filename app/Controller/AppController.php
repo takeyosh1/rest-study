@@ -32,6 +32,10 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     public $components = array(
+<<<<<<< HEAD
+=======
+        'DebugKit.Toolbar',
+>>>>>>> vol/01
         'RequestHandler'
     );
 }
